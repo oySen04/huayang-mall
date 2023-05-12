@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.oysen</groupId>
+    <artifactId>huayang-mall-system</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <description>华阳电商平台聚合工程-三高项目</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>mall-producet</module>
+        <module>mall-member</module>
+        <module>mall-coupon</module>
+        <module>mall-order</module>
+        <module>mall-ware</module>
+    </modules>
+
+</project>
