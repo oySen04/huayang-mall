@@ -10,6 +10,11 @@
     <description>华阳电商平台聚合工程-三高项目</description>
     <packaging>pom</packaging>
 
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
     <modules>
         <module>mall-producet</module>
         <module>mall-member</module>
@@ -17,6 +22,10 @@
         <module>mall-order</module>
         <module>mall-ware</module>
         <module>renren-fast-master</module>
+        <module>renren-generator-master</module>
+        <module>mall-commons</module>
+        <module>mall-gateway</module>
     </modules>
+
 
 </project>
